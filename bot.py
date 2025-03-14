@@ -24,8 +24,8 @@ async def on_message(message):
 
 
 async def main():
-    await load()
-    await bot.start("YOUR_BOT_TOKEN")
+    await load(60s)
+    await bot.start("MTM1MDEzMjU3NDMyODE5NzEzMQ.Gid_Oy.hgnQzRgGwLQY2Yft5Mm8WyC_-Vq8Q4hDBbhzb4")
 
 
 asyncio.run(main())
